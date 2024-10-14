@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box ;
+}
+
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background: url("pexels-pixabay-531880.jpg");
+    font-family: 'Lora', serif;
+}
+
+
+
+.overlay{
+
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    display: flex;
+    
+     
+}
+.text{
+    
+
+    color: wheat;
+    /* align-content: center;
+    justify-content: center; */
+    text-align: center;
+    margin-top: 10%;
+    
+    font-size: 4.5;
+    position: absolute;    
+    left : 300px;
+        
+}
+.counter{
+
+    display: flex;
+    margin:30px;
+    justify-content: center;
+    /* text-align: center; */
+    color: white;
+
+
+}
+
+
+
+input{
+    display:block;
+    background-color: whitesmoke;
+    border: solid wheat 6px;
+    border-radius: 20px;
+    height: 80px;
+    width: 150px;
+    margin: 40px;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+label{
+    color: wheat;
+    font-size: 30px;
+
+}
+
+
+
